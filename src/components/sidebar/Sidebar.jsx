@@ -13,7 +13,7 @@ export default function Sidebar() {
                  </p>
             </div>
             <div className="sidebarItem">
-                <span className="sidebarTilte">CATEGORIES</span>
+                <span className="sidebarTitle">CATEGORIES</span>
                 <ul className="sidebarList">
                     <li className="sidebarListItem">Life</li>
                     <li className="sidebarListItem">Music</li>
@@ -26,10 +26,10 @@ export default function Sidebar() {
             <div className="sidebarItem">
                 <span className="sidebarTitle">FOLLOW US</span>
                 <div className="sidebarSocial">
-                    <i className="topIcon fab fa-facebook"></i>
-                    <i className="topIcon fab fa-twitter-square"></i>
-                    <i className="topIcon fab fa-pinterest"></i>
-                    <i className="topIcon fab fa-instagram"></i>
+                    <i className="sidebarIcon fab fa-facebook"></i>
+                    <i className="sidebarIcon fab fa-twitter-square"></i>
+                    <i className="sidebarIcon fab fa-pinterest"></i>
+                    <i className="sidebarIcon fab fa-instagram"></i>
                 </div>
             </div>
         </div>
