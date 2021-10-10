@@ -14,6 +14,7 @@ import {
 } from "react-router-dom";
 
 function App() {
+  const user = false;
   return (
     <Router>
     <Topbar/>
@@ -22,16 +23,16 @@ function App() {
             <Home />
       </Route>
       <Route exact path="/register">
-            <Register />
+           {user? <Home/> :<Register />}
       </Route>
       <Route exact path="/login">
-            <Login />
+            {user? <Home/> :<Login />}
       </Route>
       <Route exact path="/write">
-            <Write />
+          {user? <Write/> :<Register />}
       </Route>
       <Route exact path="/settings">
-            <Settings />
+      {user? <Settings/> :<Register />}
       </Route>
       <Route exact path="/post/:postId">
             <Single />
